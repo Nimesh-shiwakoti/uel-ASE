@@ -89,7 +89,7 @@ All product images uploaded from the admin panel or form will go here.
 
 Open a browser.
 
-Go to: http://localhost/BAMSHAW1_Toys/index.php
+Go to: http://localhost/toys/index.php
 
 You should see the homepage of the toy shop.
 
