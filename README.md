@@ -21,17 +21,18 @@ and files are stored here.
 Installation Steps
 1. Extract Project Files
 
-Download upload.rar and your PHP project folder.
+Download upload.rar, PHPMailer.zip in your PHP project folder.
 
-Extract the contents of upload.rar.
+Extract the contents of upload.rar and PHPMailer.zip.
 toys/
+|-PHPMailer
 ├─ upload/
 ├─ index.php
 ├─ client_dashboard.php
 ...
 
 
-2. Setup Database
+2. Set up Database
 
 Open XAMPP Control Panel and start Apache and MySQL.
 
