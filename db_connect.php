@@ -1,9 +1,9 @@
 <?php
 // Database connection details
 $servername = "localhost";  // Usually 'localhost', unless your database is on another server
-$username = "bamshaw1_nimesh";         // Your MySQL username
-$password = "rj3IXV#v@lfi";             // Your MySQL password (usually empty for localhost)
-$dbname = "bamshaw1_toys";    // Your database name
+$username = "root";         // Your MySQL username
+$password = "";             // Your MySQL password (usually empty for localhost)
+$dbname = "toys";    // Your database name
 
 // Create a connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -17,3 +17,4 @@ if (!$conn) {
 mysqli_set_charset($conn, "utf8");
 
 ?>
+
