@@ -75,8 +75,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'toys.bamshawali.com'; // your SMTP server
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'info@toys.bamshawali.com'; // your SMTP email
-        $mail->Password   = 'Nimesh@123';      // your email password
+        $mail->Username   = ''; // your SMTP email
+        $mail->Password   = '';      // your email password
         $mail->SMTPSecure = 'ssl';
         $mail->Port       = 465;
 
@@ -181,3 +181,4 @@ function prepareCart() {
 </script>
 </body>
 </html>
+
