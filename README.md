@@ -39,7 +39,7 @@ Open XAMPP Control Panel and start Apache and MySQL.
 Open phpMyAdmin in your browser: http://localhost/phpmyadmin
 
 Create a new database. For example:
-Database name: bamshaw1_toys
+Database name: toys
 Collation: utf8_general_ci
 
 Import the database:
